@@ -1,0 +1,236 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Customer Login",
+        "description": "",
+        "id": "customer-login;customer-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9246677000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Open banking website http://www.way2automation.com/angularjs-protractor/banking/#/login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+                  "offset": 23
+                }
+              ],
+              "location": "cucumberLoginTest.Open_banking_website(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6281237600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click Customer Login button",
+            "match": {
+              "location": "cucumberLoginTest.clickCustomerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6256727400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I chose your name",
+            "match": {
+              "location": "cucumberLoginTest.chose_your_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6267895000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I chose name",
+            "match": {
+              "location": "cucumberLoginTest.chose_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6282309000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click button login",
+            "match": {
+              "location": "cucumberLoginTest.click_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Customer Login",
+        "description": "",
+        "id": "customer-login;customer-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6607510100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Open banking website http://www.way2automation.com/angularjs-protractor/banking/#/login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+                  "offset": 23
+                }
+              ],
+              "location": "cucumberLoginTest.Open_banking_website(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6088049900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click Customer Login button",
+            "match": {
+              "location": "cucumberLoginTest.clickCustomerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6245272400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I chose your name",
+            "match": {
+              "location": "cucumberLoginTest.chose_your_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6284768800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I chose name",
+            "match": {
+              "location": "cucumberLoginTest.chose_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6101054000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click button login",
+            "match": {
+              "location": "cucumberLoginTest.click_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Customer Login",
+    "description": "",
+    "id": "customer-login",
+    "keyword": "Feature",
+    "uri": "customerLogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open banking website",
+        "description": "",
+        "id": "open-banking-page;open-banking-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9667010300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Open website http://www.way2automation.com/angularjs-protractor/banking/#/login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+                  "offset": 15
+                }
+              ],
+              "location": "loginTest.Open_banking_website(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Open banking website",
+        "description": "",
+        "id": "open-banking-page;open-banking-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6065296600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Open website http://www.way2automation.com/angularjs-protractor/banking/#/login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+                  "offset": 15
+                }
+              ],
+              "location": "loginTest.Open_banking_website(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Open banking page",
+    "description": "",
+    "id": "open-banking-page",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
